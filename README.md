@@ -2,12 +2,17 @@
 
 Just a small utility to help me manage and prioritize my tasks, which are each Obsidian markdown notes with frontmatter metadata.
 
-Location of my tasks, when accessing from within WSL Ubuntu:
-
-`/mnt/c/Users/f77541a/repos/kb/2 Areas/Journal/tasks`
-
+## Install Dependencies
 
 ```bash
 pip3 install pyyaml
+```
+
+## Execute
+
+In `app.py` set the `tasks_folder_path` variable value to be the path to your markdown task documents, then execute the following script:
+
+```bash
+python app.py
 ```
 
